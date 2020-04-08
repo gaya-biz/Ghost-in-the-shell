@@ -17,34 +17,25 @@ li {
 ============================================*/
 
 .header {
-
   background-color: #26d0c9;
-
   color: #fff;
-
   height: 90px;
 }
 
 .header-logo {
-
   float: left;
-
   font-size: 36px;
-
   padding: 20px 40px;
-
 }
 
 .header-list {
-
+  list-style: none;
   float: left;
-
+  padding: 20px 40px;
 }
 
 .header-list li {
-
   float: right;
-
   padding: 33px 20px;
 
 }
