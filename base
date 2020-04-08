@@ -37,7 +37,6 @@ li {
 .header-list li {
   float: right;
   padding: 33px 20px;
-
 }
 
 /*============================================
