@@ -4,8 +4,10 @@
 全般的なスタイル
 ============================================*/
 
-body {
-  font-family: "Avenir Next";
+body{
+max-width: 1250px;
+margin: auto;
+font-family: "Avenir Next";
 }
 
 li {
@@ -92,7 +94,7 @@ li {
 
 .contents-item p {
 
-  font-size: medium;
+  font-size: 30;
 
   margin-top: 30px;
 
