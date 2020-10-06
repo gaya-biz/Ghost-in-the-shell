@@ -94,7 +94,7 @@ li {
 
 .contents-item p {
 
-  font-size: 30;
+  font-size: 50;
 
   margin-top: 30px;
 
