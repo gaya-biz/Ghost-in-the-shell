@@ -4,13 +4,13 @@
 全般的なスタイル
 ============================================*/
 
-body{
+.body{
 max-width: 1250px;
 margin: auto;
 font-family: "Avenir Next";
 }
 
-li {
+.li {
   list-style: none;
 }
 
