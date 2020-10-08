@@ -76,8 +76,8 @@ li {
   float: left;
 }
 
-.p {
-  font-size: 50;
+.contents-item p {
+  font-size: 50px;
   margin-top: 30px;
 }
 
