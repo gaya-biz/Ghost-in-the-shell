@@ -9,13 +9,13 @@ margin:0px;
 padding:0px;
 }
 
-body{
+.contents {
 max-width: 1250px;
 margin: auto;
 font-family: "Avenir Next";
 }
 
-li {
+.li {
   list-style: none;
 }
 
