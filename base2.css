@@ -42,7 +42,8 @@ padding:0px;
 }
 
 .pic img {
-  max-width: 800px;
+ max-width: 100%;
+ 
 }
 
 .copy-container h1 {
