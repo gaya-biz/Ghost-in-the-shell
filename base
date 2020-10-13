@@ -1,64 +1,64 @@
 @charset "utf-8";
 
-/*============================================
-全般的なスタイル
-============================================*/
-
 *{
 margin:0px;
 padding:0px;
 }
 
-.contents {
-max-width: 1250px;
-margin: auto;
-font-family: "Avenir Next";
-}
-
-.li {
-  list-style: none;
-}
-
-/*============================================
-ボディーヘッダー部分
-============================================*/
-
 .header {
-  background-color: #26d0c9;
+  background-color: #2f5167;
   color: #fff;
-  height: 90px;
+  height: 70px;
 }
 
 .header-logo {
   float: left;
-  font-size: 40px;
-  padding: 20px 40px;
-}
-
-.header-list {
-  list-style: none;
-  float: left;
+  font-size: 30px;
   padding: 20px 40px;
 }
 
 .header-list li {
+  list-style-type: none;
   float: right;
-  padding: 33px 20px;
+  padding: 30px 20px;
 }
-
-/*============================================
-ボディーメイン部分
-============================================*/
 
 .main {
-  padding: 100px 80px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Avenir Next";
 }
 
+.pic {
+  margin : 0 auto;
+  position: relative;
+}
+
+.pic p {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+}
+
+.pic img {
+  max-width: 1000px;
+}
 
 .copy-container h1 {
-  font-size: 140px;
+  text-align: center;
+  font-size: 80px;
 }
 
+.contents-item h2 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.contents-item h3 {
+  margin-top: 100px;
+  font-size: 25px;
+}
 
 .copy-container span {
   color: #ff4a4a;
@@ -66,15 +66,7 @@ font-family: "Avenir Next";
 
 .section-title {
   border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
-
-}
-
-.contents-item h2 {
-  font-size: 60px;
-  color: #26d0c9;
+  margin-bottom: 30px;
 }
 
 .contents-item {
@@ -82,22 +74,10 @@ font-family: "Avenir Next";
 }
 
 .contents-item p {
-  font-size: 50px;
+  font-size: 20px;
   margin-top: 30px;
 }
 
-.contents-item h3 {
-  font-size: 60px;
-  color: #26d0c9;
-    margin-top: 100px;
-  }
-
-.contents-item h4 {
-  font-size: 60px;
-  color: #26d0c9;
-    margin-top: 100px;
-  
-}
 
 .contact-form {
   padding-top: 200px;
@@ -118,9 +98,7 @@ input,textarea {
 
 }
 
-/*============================================
-ボディーフッター部分
-============================================*/
+
 
 .footer {
   background-color: #2f5167;
@@ -134,17 +112,11 @@ input,textarea {
 .footer-logo {
   float: left;
   font-size: 32px;
-
 }
-
-
-
-.footer-list {
-  float: right;
-}
-
 
 
 .footer-list li {
-  padding-bottom: 20px;
+  list-style-type: none;
+  float: right;
+  padding: 30px 20px;
 }
