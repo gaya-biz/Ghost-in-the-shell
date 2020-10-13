@@ -5,8 +5,7 @@
 <style>
 @charset "utf-8";
 
-@media screen and (min-width :800px) {
-
+@media screen and (max-width :800px) {
 *{
 margin:0px;
 padding:0px;
@@ -29,8 +28,6 @@ padding:0px;
   float: right;
   padding: 30px 20px;
 }
-
-
 
 .main {
   max-width: 800px;
@@ -129,8 +126,13 @@ input,textarea {
   padding: 30px 20px;
 }
 
-}// END media maxwidth800 css
+}
 
+  // END media max-width 800px css
+  // START media min-width 800px css
+
+
+@media screen and (min-width :800px) {
 *{
 margin:0px;
 padding:0px;
@@ -227,7 +229,6 @@ input,textarea {
 .contact-submit {
   background-color:#dee7ec;
   color:#889eab;
-
 }
 
 
@@ -252,7 +253,8 @@ input,textarea {
   float: right;
   padding: 30px 20px;
 }
-
+}
+ // END min-width 800px css
 
  </style>
   
