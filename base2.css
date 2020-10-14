@@ -25,7 +25,6 @@ padding:0px;
 
 .main {
   max-width: 800px;
-  margin: auto;
   font-family: "Avenir Next";
 }
 
@@ -44,7 +43,6 @@ padding:0px;
 .pic img {
   width : 100vw;
   max-width: 800px;
-  margin: auto;
 }
 
 .copy-container h1 {
