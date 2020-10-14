@@ -43,6 +43,7 @@ padding:0px;
 
 .pic img {
  max-width: 800px;
+ margin: auto;
 }
 
 .copy-container h1 {
@@ -84,7 +85,7 @@ padding:0px;
 }
 
 input,textarea {
-  width: 400px;
+  max-width: 400px;
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 20px;
