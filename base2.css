@@ -103,19 +103,19 @@ input,textarea {
   background-color: #2f5167;
   color: #fff;
   height: 120px;
-  padding: 40px;
+  padding: 10px;
 }
 
 
 
 .footer-logo {
   float: left;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 
 .footer-list li {
   list-style-type: none;
   float: right;
-  padding: 30px 20px;
+  padding: 10px 10px;
 }
